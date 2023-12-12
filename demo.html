@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+    <title>Document</title>
+    <style>
+        body {
+   background-image: linear-gradient(#636162,#444);
+   height: 122vh;
+   font-weight: bold;
+   letter-spacing: 2px;
+   margin: auto;
+
+}
+*{
+    margin:0px;padding:0px;font-family: 'Times New Roman', Times, serif;
+}
+
+.main {
+   display:grid;
+   grid-template-columns: auto auto; /* Một cột */
+    grid-template-rows: auto ; /* Hai dòng */
+    gap: 10px;
+
+
+   background-color: #2196F3;
+
+   height: auto;
+   width:650px;
+   
+    
+   
+}
+
+.left {
+    background-color: orange;
+    width:200px;
+    height: 100%;
+    float: left;
+    
+}
+.right{
+    width:400px;
+    float: left;
+
+    background-color: aqua;
+
+}
+
+.profile-img img {
+    height: 180px;
+
+    width: 180px;
+    background-color: #ddd;
+    margin-left: 60px;
+    border: 10px solid #fbb03b;
+    box-shadow: 6px 7px 9px 5px #fbb03b73;
+
+
+
+
+
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.box-1{
+    position: relative;
+}
+.heading{
+    background-color: #4d4d4d;
+    padding:10px;
+    color: #fbb03b;
+    text-align: left;
+    padding-left: 20px;
+    margin-right: -15px;
+
+
+
+
+}
+.heading::after{
+    content: '';
+    position: absolute;
+    width:21px;
+    height:18px;
+   background-color: #5a5959;
+   left:191px;
+   top:26px;
+   transform:rotate(56deg);
+   z-index: -1;
+
+
+
+}
+.p1{
+    padding: 9px 10px;
+    font-size: 11px;
+
+}
+icons1{
+    font-size: 16px!important;
+    padding-right: 10px!important;
+    margin:0px 10px;
+}
+.contain-skill{
+
+    width:90%;
+    background-color: #4d4d4d;
+    margin:0px 10px;
+
+}
+.skill{
+
+    text-align: right;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color:#ddd;
+
+
+}
+
+.skill-html {
+    width: 80%; 
+    background-color: aqua;
+    /* Điều chỉnh theo kỹ năng của bạn */
+}
+
+.skill-css {
+    width: 70%; /* Điều chỉnh theo kỹ năng của bạn */
+}
+
+.skill-py {
+    width: 60%; /* Điều chỉnh theo kỹ năng của bạn */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <body>
+        <div class="main">
+            <div class="left">
+                <br>
+                <div class="profile-img"><img src="images/th (2).jpg" alt="Profile Image"></div>
+                
+                <div class="box-1">
+                    <div class="heading">
+                        <p>Contacting</p>
+                    </div>
+                    <p class="p1"><i class="material-icons icons1">call</i>+099999</p>
+                    <p class="p1"><i class="material-icons icons1">call</i>+099999</p>
+                    <p class="p1"><i class="material-icons icons1">call</i>+099999</p>
+                    <p class="p1"><i class="material-icons icons1">call</i>+099999</p>
+                </div>
+    
+                <div class="box-1">
+                    <div class="heading">
+                        <p>Languages</p>
+                    </div>
+                    <p class="p1">HTML
+                        <div class="contain-skill">
+                            <div class="skill skill-html"></div>
+                        </div>
+                    </p>
+                    <p class="p1">CSS
+                        <div class="contain-skill">
+                            <div class="skill skill-css"></div>
+                        </div>
+                    </p>
+                    <p class="p1">Python
+                        <div class="contain-skill">
+                            <div class="skill skill-py"></div>
+
+                        </div>
+                    </p>
+
+                </div>
+                <div class="box-1">
+                    <div class="heading">
+                        <p>Experiment</p>
+                    </div>
+                    <p class="p1">FPT
+                        <div class="contain-skill">
+                            <div class="skill skill-html"></div>
+                        </div>
+                    </p>
+                    <p class="p1">Ammazon
+                        <div class="contain-skill">
+                            <div class="skill skill-css"></div>
+                        </div>
+                    </p>
+                    <p class="p1">Google
+                        <div class="contain-skill">
+                            <div class="skill skill-py"></div>
+
+                        </div>
+                    </p>
+
+
+
+            </div>
+            <div class="right">
+                <h2>Hoàng phi hồng</h2>
+
+            </div>
+            
+            
+
+
+
+            </div>
+        </div>
+    </body>
+    
+</body>
+</html>
